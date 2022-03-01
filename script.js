@@ -147,7 +147,7 @@ btnLogin.addEventListener('click', function (e) {
     labelWelcome.textContent = `Welcome back, ${
       currentAccount.owner.split(' ')[0]
     }`;
-    // containerApp.style.opacity = 100;
+    containerApp.style.opacity = 100;
 
     // Clear input fields
     inputLoginUsername.value = inputLoginPin.value = '';
@@ -215,7 +215,7 @@ btnClose.addEventListener('click', function (e) {
     accounts.splice(index, 1);
 
     // Hide UI
-    // containerApp.style.opacity = 0;
+    containerApp.style.opacity = 0;
     console.log(accounts);
 
     // Clear input fields
