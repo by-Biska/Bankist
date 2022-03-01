@@ -587,6 +587,7 @@ console.log(convertTitleCase('this is a LONG title, but not too long'));
 console.log(convertTitleCase('and here is another title with an EXEMPLE'));
 */
 
+/*
 const dogs = [
   { weight: 22, curFood: 250, owners: ['Alice', 'Bob'] },
   { weight: 8, curFood: 200, owners: ['Matilda'] },
@@ -666,3 +667,4 @@ const dogssort = dogs
   .slice()
   .sort((a, b) => a.recommendedFood - b.recommendedFood);
 console.log(dogssort);
+*/
